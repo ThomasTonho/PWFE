@@ -65,7 +65,7 @@ const texto2 = document.querySelector('#display2');
 
 function displayTexto() {
     texto.textContent = input.value;
-    texto2.textContent = input.value.split('')
+    texto2.textContent = input.value.split('') 
 }
 
 input.addEventListener("input", displayTexto)
