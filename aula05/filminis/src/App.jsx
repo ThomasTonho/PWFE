@@ -1,4 +1,7 @@
 import Cabecalho from "./assets/components/Cabecalho";
+import Descricao from "./assets/components/Descricao";
+import Habilidades from "./assets/components/Habilidades";
+import PorQueGosto from "./assets/components/PorQueGosto";
 
 function App() {
 
@@ -6,26 +9,9 @@ function App() {
     <>
       <Cabecalho />
       <main>
-        <section>
-          <h2>Descrição</h2>
-          <p>Quem é ele</p>
-        </section>
-
-        <section>
-
-          <h2>Hobbies / Poderes / etc </h2>
-          <ul>
-            <li>primeiro</li>
-            <li>segundo</li>
-            <li>terceiro</li>
-          </ul>
-
-        </section>
-
-        <section>
-          <h2>Porquá gosto de:</h2>
-          <p>Porque gosto dele</p>
-        </section>
+        <Descricao />
+        <Habilidades />
+        <PorQueGosto />
       </main>
 
 

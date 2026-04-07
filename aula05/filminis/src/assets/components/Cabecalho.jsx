@@ -2,9 +2,9 @@
 export default function Cabecalho() {
     return (
         <header>
-            <h1>Nome Personagem</h1>
+            <h1>Luffy</h1>
             <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHE3es77xGaYc8l2qs373V5RxYlwV-iHiWIw&s" alt="foto do personagem" />
+                <img src="https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png" alt="foto do Luffy" />
             </figure>
         </header>
     )
